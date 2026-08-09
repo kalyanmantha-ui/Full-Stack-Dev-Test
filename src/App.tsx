@@ -110,7 +110,7 @@ function App() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 print:p-0 print:max-w-none">
         {mode === 'quick' && (
           <div className="mb-6 bg-slate-100 border border-slate-200 text-slate-800 px-5 py-4 rounded-xl flex items-start gap-3 no-print">
             <Zap className="w-5 h-5 mt-0.5 shrink-0 text-slate-600" />
@@ -121,7 +121,7 @@ function App() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 print:block">
           
           {/* Left Column - Builders (No Print) */}
           <div className="lg:col-span-7 space-y-6 no-print">
@@ -138,8 +138,8 @@ function App() {
           </div>
 
           {/* Right Column - Summary & PDF Preview */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="sticky top-24 space-y-6">
+          <div className="lg:col-span-5 space-y-6 print:block">
+            <div className="sticky top-24 space-y-6 print:static">
               
               <LiveTotalBanner estimate={estimate} />
 
