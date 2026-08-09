@@ -1,6 +1,6 @@
 # HVAC Field Estimate Tool - Take-Home Assessment
 
-🚀 **[Live Demo: Test the application here!](https://kalyanmantha-ui.github.io/Full-Stack-Dev-Test/)**
+**[Live Demo: Test the application here!](https://kalyanmantha-ui.github.io/Full-Stack-Dev-Test/)**
 
 ## Overview
 Thank you for reviewing my submission. I have fully deployed and hosted this application via GitHub Pages, so you can test it out immediately using the link above without needing to pull down the code. 
