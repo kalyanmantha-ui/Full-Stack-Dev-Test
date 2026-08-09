@@ -1,7 +1,9 @@
 # HVAC Field Estimate Tool - Take-Home Assessment
 
+🚀 **[Live Demo: Test the application here!](https://kalyanmantha-ui.github.io/Full-Stack-Dev-Test/)**
+
 ## Overview
-Thank you for reviewing my submission. This project is a frontend-only React application built with TypeScript, Vite, and TailwindCSS. It is designed to serve as a fast, reliable, and professional estimation tool for HVAC technicians in the field. 
+Thank you for reviewing my submission. I have fully deployed and hosted this application via GitHub Pages, so you can test it out immediately using the link above without needing to pull down the code. 
 
 The core philosophy behind this architecture was to create a resilient application that protects the user from messy raw data, minimizes runtime errors, and provides a premium, client-facing experience on mobile tablets.
 
